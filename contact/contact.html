@@ -1,20 +1,29 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Hopper Codes - Sobre mim</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/about_me.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="https://kit.fontawesome.com/69e1d64101.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 
+	<script type="text/javascript">
+		(function(){
+		    emailjs.init("user_23IVpsxHZquVS8I32w529");
+
+		})();
+    </script>
+    <script src="../index.js"></script>
 </head>
 <body>
 
 <div id="header">
 
 	<div id="personal">
-		<a class="personal" href="about-me.html">Sobre mim </a>
-		<a class="personal" href="../contact/contact.html">Contato</a>
+		<a class="personal" href="../about_me/about-me.html">Sobre mim </a>
+		<a class="personal" href="">Contato</a>
 		<a class="personal-social" href="https://www.instagram.com/hoppercodes/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 		<a class="personal-social" href=""><i class="fa fa-github" aria-hidden="true"></i></a>
 	</div>
@@ -48,40 +57,46 @@
 
 	<div id="site-address">
 		<a class="site-address" href="../index.html"><i class="fa fa-home"></i>Home</a> >
-		<strong><a class="site-address" href="about-me.html"> Sobre mim</a></strong>
+		<strong><a class="site-address" href="contact.html"> Contato</a></strong>
 	</div>
 
 </div>
 
-<div id="container-about-me"> 
+<div id="container-contact"> 
 
-	<div id="about-me">
+	<div id="contact">
 
-		<div class="biography">
-			<h2>SOBRE A AUTORA E PRODUTORA DA HOPPER CODES</h2>
+		<div class="message">
+			<h2>ENVIE-ME UMA MENSAGEM</h2>
 			<p>
-				Olá! Eu me chamo Camila Cardoso e sou a criadora e produtora deste site. Graduei em Ciência da Computação 
-				no ano de 2020. Durante a faculdade fiz estágios voltados para a área de banco de dados e desenvolvimento
-				web. Trabalhei durante um ano na área de Business Intelligence. Descobri que as minhas paixões dentro da área da computação estão voltadas para as áreas de análises de dados e web design. Além de gostar de programação,
-				sou amante de filmes, séries, futebol e estar com aqueles que eu amo.
+				Fique a vontade para enviar críticas construtivas, sugestões, dúvidas ou qualquer mensagem que você
+				queira me mandar.
 			</p>
-			<p>
-				Criei esse site como forma de estudo e também para compartilhar os conhecimentos que já adquiri. A facilitação do acesso a conteúdos pode ajudar pessoas e eu espero poder fazer isto através da <strong>Hopper Codes</strong>.
-			</p>
-		</div>
 
-		<div class="biography-photo">
-			<img src="../images/me_photo.jpg">
-			
+			<form id="myform" method="post" onsubmit="sendMail(this)">
+
+				<label>Nome:</label><br>
+				<input class="input-form" type="text" name="name-user"/><br><br>
+
+				<label>E-mail:</label><br>
+				<input class="input-form" type="text" name="email-user"/><br><br>
+
+				<label>Mensagem:</label><br>
+				<textarea name="message" class="input-form"></textarea><br><br>
+
+				<button class="submit-form">Enviar</button>
+
+			</form>
+
 		</div>
 
 		<div class="clear"></div>
 
 
-</div><!-- fim do about-me -->
+	</div><!-- fim do contact -->
 
 
-	</div> <!-- fim do container -->
+</div> <!-- fim do container -->
 
 	<div class="clear"></div>
 

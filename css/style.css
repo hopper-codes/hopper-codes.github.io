@@ -184,38 +184,6 @@ a:hover {
 }
 
 
-/*about-me style */
-
-#about-me{
-	width: 97%;
-	color: #454647;
-	float: left;
-}
-
-.biography{
-	width: 50%;
-	text-align: justify;
-    float: left;
-    margin: 15px;
-    padding: 15px;
-}
-
-.biography-photo{
-	width: 30%;
-    float: right;
-    margin: 15px;
-    padding: 15px;
-}
-
-.biography-photo img{
-	width: 300px;
-	border: 2px solid #e2725b;
-
-}
-
-
-
-
 /*footer style */
 
 .footer {
@@ -240,6 +208,7 @@ a:hover {
 .footer-photo{
 	width: 420px;
 	float: left;
+	margin: 25px;
 }
 
 .footer-photo img{

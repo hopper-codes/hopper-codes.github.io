@@ -2,7 +2,7 @@
 
 #contact{
 	width: 97%;
-	color: #454647;
+	color: #111d27;
 	float: left;
 }
 
@@ -27,7 +27,7 @@ textarea{
 }
 
 .submit-form{
-  background-color: #124964; /* Green */
+  background-color: #124964;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -35,4 +35,5 @@ textarea{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-family: 'Ubuntu';
 }

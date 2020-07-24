@@ -1,0 +1,28 @@
+.biography{
+	width: 920px;
+	margin: 10px auto;
+}
+
+.title-biography{
+	font-size: 1.3em;
+	position: relative;
+    padding: 20px;
+    margin: 10px;
+}
+
+.text-biography{
+	width: 600px;
+	margin: 10px;
+	float: left;
+
+}
+
+.photo-biography{
+	width: 250px;
+	margin: 10px;
+	float: right;
+}
+
+.photo-biography img{
+	width: 250px;
+}

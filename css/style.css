@@ -6,7 +6,7 @@ body{
 /*navbar styles*/
 
 .nav-personal-bg{
-	background: #e2725b;
+	background: #111111;
 }
 
 .nav-personal{
@@ -14,17 +14,11 @@ body{
 }
 
 .nav-personal:hover {
-	color: #3b3b3b !important;
+	color: #8b8b8b !important;
 }
 
-.site-address{
-	text-decoration: none;
- 	color: #3b3b3b;
-}
-
-.site-address:hover {
-	text-decoration: none;
- 	color: black;
+.nav-link: hover{
+	color: #111111 !important;
 }
 
 /*content styles*/
@@ -67,14 +61,14 @@ body{
 
 .btn-primary {
     color: #fff;
-    background-color: #084d6e;
-    border-color: #084d6e;
+    background-color: #e34234;
+    border-color: #e34234;
 }
 
 .btn-primary:hover{
     color: #fff;
-    background-color: #3b3b3b;
-    border-color: #3b3b3b;
+    background-color: #111111;
+    border-color: #111111;
 }
 
 /*footer styles */ 
@@ -84,7 +78,7 @@ body{
   position: absolute;
   text-align: center;
   height: 450px;
-  background: #e2725b;
+  background: #002366;
   padding: 15px;
   float: left;
 }
@@ -96,6 +90,11 @@ body{
 	margin-right: 145px;
 	color: #fefefe;
 	text-align: justify;
+}
+
+.footer-column h2{
+	color: #d4af37;
+	text-align: center;
 }
 
 .footer-photo{

@@ -2,7 +2,6 @@ body{
 	font-family: 'Ubuntu';
 }
 
-
 /*navbar styles*/
 
 .nav-personal-bg{
@@ -17,17 +16,57 @@ body{
 	color: #8b8b8b !important;
 }
 
-.nav-link: hover{
-	color: #111111 !important;
+.nav-menu{
+	color: #151515 !important;
+}
+.nav-menu:hover{
+	color: #8b8b8b !important;
+}
+
+.nav-menu.active{
+	color: #565656 !important;
+}
+
+
+/* jumbotron styles */
+.important-post{
+	border-radius: 0;
+	width: 100%;
+	background-image: url("../images/linkedin.png");
+}
+
+.important-post h2{
+	color: #111111;
+}
+
+.lead{
+	width: 760px;
+	margin: 25px;
+	padding: 10px;
+	color: #111111;
+}
+
+.readmore{
+	text-decoration: none;
+	color: #111111;
+}
+
+.readmore:hover {
+	color: #191970 !important;
+	text-decoration: none;
+}
+
+.carousel-inner{
+	height: 380px;
 }
 
 /*content styles*/
 
 #content{
-	width: 920px;
 	margin: 10px auto;
 	color: #3b3b3b;
 	background: white;
+	width: 920px;
 }
 
 /*posts*/
@@ -37,6 +76,7 @@ body{
 	position: relative;
     padding: 20px;
     margin: 10px;
+    color: #111111 !important;
 }
 
 .posts{
@@ -70,6 +110,7 @@ body{
     background-color: #111111;
     border-color: #111111;
 }
+
 
 /*footer styles */ 
 

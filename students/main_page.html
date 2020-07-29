@@ -14,23 +14,14 @@
 	<!-- end of bootstrap configurations -->
 
   <script src="https://kit.fontawesome.com/69e1d64101.js" crossorigin="anonymous"></script>
-	<link rel="icon" type="image/png" href="../../images/HC_footer.png">
-	<link rel="stylesheet" type="text/css" href="../../css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/dicas.css">
+	<link rel="icon" type="image/png" href="../images/HC_footer.png">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/student.css">
+
   <!-- end of links - logo and css styles -->
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function(){
-        emailjs.init("user_23IVpsxHZquVS8I32w529");
-
-    })();
-  </script>
-  <script src="../index.js"></script>
-
-  <!-- end of emailjs configurations -->
-
 </head>
+
 
 <body>
 
@@ -39,10 +30,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link nav-personal" href="../../about_me/biography.html">Sobre mim <span class="sr-only">(current)</span></a>
+        <a class="nav-link nav-personal" href="../about_me/biography.html">Sobre mim <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-personal" href="../../contact/contact.html">Contato <span class="sr-only">(current)</span></a>
+        <a class="nav-link nav-personal" href="../contact/contact.html">Contato <span class="sr-only">(current)</span></a>
       </li>
     </ul>
  </div>
@@ -64,17 +55,17 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   
-  <a href="../../index.html">
-  	<img src="../../images/HC_header.png" width="155px;">
+  <a href="../index.html">
+  	<img src="../images/HC_header.png" width="155px;">
   </a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-          <a class="nav-link nav-menu active" href="index.html">HOME</a>
+          <a class="nav-link nav-menu" href="../index.html">HOME</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link nav-menu" href="index.html">DICAS PARA ESTUDANTES</a>
+          <a class="nav-link nav-menu active" href="main_page.html">DICAS PARA ESTUDANTES</a>
       </li>
       <li class="nav-item">
           <a class="nav-link nav-menu" href="index.html">DICAS PROFISSIONAIS</a>
@@ -99,36 +90,96 @@
 
 </nav><!-- end of navbar - links to functions -->
 
-<section id="content">
 
-	<div class="types">
+<div class="students">
 
-    <div class="jumbotron">
-        <p>Este é um simples componente jumbotron para chamar mais atenção a um determinado conteúdo ou informação.</p>
-        <hr class="my-4">
-        <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
+    <div class="posts-students">
+
+      <div id="title-student">
+        <h4>Postagens Recentes</h4>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="card card_student">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxL7UXmG2ckShjCIYQiPhwVAuCSLSJ9uTabw&usqp=CAU">
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <hr class="my-4">
+              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <a href="#" class="card-link">Continuar lendo...</a>
+        </div>
+      </div>
+
+      <div class="card card_student">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxL7UXmG2ckShjCIYQiPhwVAuCSLSJ9uTabw&usqp=CAU">
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <hr class="my-4">
+              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <a href="#" class="card-link">Continuar lendo...</a>
+        </div>
+      </div>
+
+      <div class="card card_student">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxL7UXmG2ckShjCIYQiPhwVAuCSLSJ9uTabw&usqp=CAU">
+        <div class="card-body">
+          <h5 class="card-title">Título do card</h5>
+          <hr class="my-4">
+              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <a href="#" class="card-link">Continuar lendo...</a>
+        </div>
+      </div>
+
     </div>
 
-    <div class="jumbotron">
-        <p class="lead">Este é um simples componente jumbotron para chamar mais atenção a um determinado conteúdo ou informação.</p>
-        <hr class="my-4">
-        <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
+    <div class="nav-students">
+      <h5 id="nav-tittle-students">Categorias</h5>
+      <div class="card card_category" style="width: 250px;">
+        <ul class="list-group list-group-flush">
+          <a href="" class="link-student">
+            <li class="list-group-item">Estágios</li>
+          </a>
+          <a href="" class="link-student">
+            <li class="list-group-item">Cursos Online</li>
+          </a>
+          <a href="" class="link-student">
+            <li class="list-group-item">Lógica de Programação</li>
+          </a>
+        </ul>
+      </div>
     </div>
 
     <div class="clear"></div>
 
-  </div>
+  <nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Anterior</a>
+    </li>
+    <li class="page-item student-page active">
+      <a class="page-link" href="#">1</a>
+    </li>
+    <li class="page-item student-page">
+      <a class="page-link" href="#">2 <span class="sr-only">(atual)</span></a>
+    </li>
+    <li class="page-item student-page">
+      <a class="page-link" href="#">3</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">Próximo</a>
+    </li>
+  </ul>
 
-</section><!-- end of section - contact -->
+</div>
+
 
 <section id="footer">
 
   <div class="footer">
 
     <div class="footer-photo">
-      <img src="../../images/HC_footer.png">
+      <img src="../images/HC_footer.png">
     </div>
 
     <div class="footer-column">

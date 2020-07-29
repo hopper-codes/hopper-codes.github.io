@@ -1,0 +1,83 @@
+/* style of layout page */
+
+.students{
+	width: 1230px;
+	margin: 5px auto;
+}
+
+.nav-students{
+	width: 300px;
+	float: right;
+	margin: 5px;
+	padding: 15px;
+}
+
+.posts-students{
+	float: left;
+	width: 910px;
+}
+
+/* sytle of cards */
+
+#nav-tittle-students{
+	text-align: center;
+}
+
+.card_category{
+	margin-left: 22px;
+	width: 230px;
+	padding: 5px;
+}
+
+.card_student{
+	width: 280px;
+	margin: 10px;
+}
+
+.card_student img{
+	width: 240px;
+}
+
+h5.card-title{
+	color: #111111;
+}
+
+#title-student{
+	padding-top: 15px;
+}
+
+
+/* sytle of links */
+
+.link-student{
+	color: #111111;
+}
+
+.link-student:hover{
+	color: #002366;
+	text-decoration: none;
+}
+
+.card-link{
+	color: #191970;
+	font-weight: bold;
+}
+
+.card-link:hover{
+	color: #111111;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #111111;
+    border-color: #111111;
+}
+
+.page-link{
+	color: #454545;
+}
+
+.page-link:hover{
+	color: #111111;
+}

@@ -1,29 +1,29 @@
 /* style of layout page */
 
-.students{
+.professional{
 	width: 1230px;
 	margin: 5px auto;
 }
 
-.nav-students{
+.nav-professional{
 	width: 300px;
 	float: right;
 	margin: 5px;
 	padding: 15px;
 }
 
-.posts-students{
+.posts-professional{
 	float: left;
 	width: 910px;
 }
 
 /* sytle of cards */
 
-#nav-tittle-students{
+#nav-tittle-professional{
 	text-align: center;
 }
 
-.nav-students h5{
+.nav-professional h5{
 	font-weight: bold;
 }
 
@@ -33,12 +33,12 @@
 	padding: 5px;
 }
 
-.card_student{
+.card_professional{
 	width: 280px;
 	margin: 10px;
 }
 
-.card_student img{
+.card_professional img{
 	width: 240px;
 }
 
@@ -46,11 +46,11 @@ h5.card-title{
 	color: #111111;
 }
 
-#title-student{
+#title-professional{
 	padding-top: 25px;
 }
 
-#title-student h4{
+#title-professional h4{
 	font-weight: bold;
 }
 
@@ -58,11 +58,11 @@ h5.card-title{
 
 /* sytle of links */
 
-.link-student{
+.link-professional{
 	color: #111111;
 }
 
-.link-student:hover{
+.link-professional:hover{
 	color: #002366;
 	text-decoration: none;
 	font-weight: bold;

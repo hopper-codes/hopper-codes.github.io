@@ -1,5 +1,5 @@
 body{
-	font-family: 'Ubuntu';
+	font-family: 'Helvetica';
 }
 
 /*navbar styles*/
@@ -10,6 +10,7 @@ body{
 
 .nav-personal{
     color: #fefefe !important;
+    font-weight: bold;
 }
 
 .nav-personal:hover {
@@ -18,12 +19,17 @@ body{
 
 .nav-menu{
 	color: #151515 !important;
-}
-.nav-menu:hover{
-	color: #8b8b8b !important;
+	font-weight: bold;
 }
 
-.nav-menu.active{
+.nav-menu:hover{
+	color: #8b8b8b !important;
+	font-weight: bold;
+}
+
+.nav-menu.home-menu,
+.nav-menu.student-menu,
+.nav-menu.professional-menu{
 	color: #565656 !important;
 }
 
@@ -35,8 +41,9 @@ body{
 	background-image: url("../images/linkedin.png");
 }
 
-.important-post h2{
+.important-post h1{
 	color: #111111;
+	font-weight: bold;
 }
 
 .lead{
@@ -48,11 +55,12 @@ body{
 
 .readmore{
 	text-decoration: none;
-	color: #111111;
+	color: #002366;
+	font-weight: bold;
 }
 
 .readmore:hover {
-	color: #191970 !important;
+	color: #111111 !important;
 	text-decoration: none;
 }
 
@@ -79,6 +87,10 @@ body{
     color: #111111 !important;
 }
 
+#title-post h4{
+	font-weight: bold;
+}
+
 .posts{
 	width: 920px;
 	margin: 10px auto;
@@ -97,6 +109,10 @@ body{
 
 .clear{
 	clear: both;
+}
+
+.card-body h5{
+	font-weight: bold;
 }
 
 .btn-primary {
@@ -136,6 +152,7 @@ body{
 .footer-column h2{
 	color: #ffdc99;;
 	text-align: center;
+	font-weight: bold;
 }
 
 .footer-photo{

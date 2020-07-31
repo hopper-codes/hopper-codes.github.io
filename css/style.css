@@ -10,27 +10,26 @@ body{
 
 .nav-personal{
     color: #fefefe !important;
-    font-weight: bold;
 }
 
 .nav-personal:hover {
 	color: #8b8b8b !important;
+	font-weight: bold;
 }
 
 .nav-menu{
 	color: #151515 !important;
-	font-weight: bold;
 }
 
 .nav-menu:hover{
 	color: #8b8b8b !important;
-	font-weight: bold;
 }
 
 .nav-menu.home-menu,
 .nav-menu.student-menu,
 .nav-menu.professional-menu{
 	color: #565656 !important;
+	font-weight: bold;
 }
 
 

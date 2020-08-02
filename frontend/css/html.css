@@ -1,0 +1,58 @@
+#html-code{
+	width: 950px;
+	margin: 10px auto;
+}
+
+.photo-html img{
+	width: 150px;
+	margin: 10px;
+}
+
+.photo-html{
+	width: 180px;
+	margin: 10px;
+	float: left;
+}
+
+.content-html{
+	width: 700px;
+	margin: 10px;
+	float: right;
+}
+
+#title-html{
+	padding-top: 25px;
+}
+
+#title-html h4{
+	font-weight: bold;
+}
+
+.card-html{
+	margin: 20px;
+	padding: 10px;
+}
+
+.card-link{
+	color: #191970;
+	font-weight: bold;
+}
+
+.card-link:hover{
+	color: #111111;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #111111;
+    border-color: #111111;
+}
+
+.page-link{
+	color: #454545;
+}
+
+.page-link:hover{
+	color: #111111;
+}

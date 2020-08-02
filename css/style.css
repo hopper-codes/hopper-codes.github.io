@@ -19,6 +19,9 @@ body{
 
 .nav-menu{
 	color: #151515 !important;
+	padding: 10px;
+	margin: 10px;
+	font-size: 1.12em;
 }
 
 .nav-menu:hover{
@@ -26,9 +29,14 @@ body{
 }
 
 .nav-menu.home-menu,
-.nav-menu.dicas-menu{
+.nav-menu.dicas-menu,
+.programmer-menu{
 	color: #565656 !important;
 	font-weight: bold;
+}
+
+.dropdown-item:hover{
+	color: #8b8b8b !important;
 }
 
 

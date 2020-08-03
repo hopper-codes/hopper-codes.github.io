@@ -151,6 +151,7 @@ body{
   background: #002366;
   padding: 15px;
   float: left;
+  position: absolute;
 }
 
 .footer-column{
@@ -160,6 +161,7 @@ body{
 	margin-right: 145px;
 	color: #fefefe;
 	text-align: justify;
+
 }
 
 .footer-column h2{

@@ -4,8 +4,13 @@ body{
 
 /*navbar styles*/
 
+.navbar{
+	max-width: 100%;
+}
+
 .nav-personal-bg{
 	background: #111111;
+	width: 1280px;
 }
 
 .nav-personal{
@@ -43,8 +48,10 @@ body{
 /* jumbotron styles */
 .important-post{
 	border-radius: 0;
-	width: 100%;
+	width: 1024px;
+	margin: 10px auto;
 	background-image: url("../images/linkedin.png");
+	background-size: cover;
 }
 
 .important-post h1{
@@ -137,7 +144,7 @@ body{
 /*footer styles */ 
 
 .footer {
-  width: 100%;
+  width: 1280px;
   position: absolute;
   text-align: center;
   height: 450px;
@@ -147,7 +154,7 @@ body{
 }
 
 .footer-column{
-	width: 350px;
+	width: 35%;
 	float: right;
 	margin-top:34px;
 	margin-right: 145px;
@@ -162,7 +169,7 @@ body{
 }
 
 .footer-photo{
-	width: 420px;
+	width: 42%;
 	float: left;
 	margin: 5px;
 }

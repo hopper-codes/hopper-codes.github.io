@@ -107,7 +107,8 @@ h5.card-title{
 	color: #111111;
 }
 
-.linkedin{
+.linkedin,
+.cursos{
 	color: #565656 !important;
 	font-weight: bold;
 }

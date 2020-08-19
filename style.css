@@ -1,10 +1,6 @@
 /*geral*/
-html, body, #principal {
+html, body, #principal{
     height: 100vh; /*ocupar 100% da tela*/
-}
-
-body{
-    background: var(--color-background);
 }
 
 * {
@@ -13,6 +9,10 @@ body{
     box-sizing: border-box;
 }
 
+#menu, #contact #content, #footer{
+	width: 100vw;
+    height: 100vh;
+}
 
 #menu,
 #contact{
@@ -73,6 +73,7 @@ a.contact.active{
 
 .menu-item a {
 	text-decoration: none;
+	color: black;
 }
 
 .menu-item a:hover{
